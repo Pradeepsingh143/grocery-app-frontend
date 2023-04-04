@@ -9,7 +9,19 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+
+  /* light mode color */
+  --primary: #226e17;
+  --secondary: #6fdd5f;
+  --accent: #eeb711;
+
+  /* dark mode color */
+  --dark-primary: #222526;
+  --dark-secondary: #788387;
+  --dark-accent: #f1c337;
+
+  --light: #fff;
+  --dark: #161b1d;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
